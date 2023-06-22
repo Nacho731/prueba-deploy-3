@@ -11,6 +11,8 @@
 //   })
 //   .catch((err) => console.error(err));
 
+
+import 'reflect-metadata';
 import { sequelize } from './src/db';
 import app from './src/app';
 
