@@ -1,5 +1,5 @@
 import jwt, { JwtPayload } from "jsonwebtoken";
-import config from "../lib/config";
+import config from "./config";
 import { Request, Response, NextFunction } from "express";
 
 export interface CustomRequest extends Request {

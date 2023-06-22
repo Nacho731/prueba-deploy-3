@@ -5,7 +5,7 @@ import * as bcrypt from "bcrypt"; // para hashear passwords
 import * as jwt from "jsonwebtoken"; // token generator
 import * as nodemailer from "nodemailer"; // servicio de email automatico
 import * as fs from "fs"; // template mail HTML carpeta root
-import config from "../../lib/config";
+import config from "../config";
 
 // Envio de emails NO TOCAR!!!
   // Transporter para enviar mails
